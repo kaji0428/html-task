@@ -1,0 +1,32 @@
+table,td,th {
+
+    border: solid 3px red;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+}
+
+#bg-blue{
+    background-color: blue;
+}
+#bg-sky{
+    background-color: skyblue;
+}
+#bg-yellow{
+    background-color: yellow;
+}
+#bg-white{
+    background-color: gray;
+}
+.text-brown{
+    color: brown;
+}
+h1{
+    color: green;
+}
+body{
+    background-color: whitesmoke;
+    font-family: "ゴシック体","游明朝",sans-serif;
+}
+
