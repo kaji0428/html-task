@@ -1,0 +1,20 @@
+th,td{
+    border: 1px #333 solid;
+    padding: 8px;
+}
+span{
+    background-color: red;
+    color: white;
+    border-radius: 30%;
+}
+th{
+    background-color: goldenrod;
+    text-align: left;
+    vertical-align: top;
+}
+td{
+    background-color: blanchedalmond;
+}
+p{
+    font-size: 200%;
+}
