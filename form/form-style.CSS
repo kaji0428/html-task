@@ -1,0 +1,9 @@
+input[type]{
+    font-size: 0.7rem;
+}
+input[type]{
+    margin-bottom: 10px;
+}
+fieldset {
+    margin-bottom: 20px;
+}

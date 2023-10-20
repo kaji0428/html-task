@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet"  href = "form-style.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約</title>
+</head>
+<body>
+    <form action="#" method="post">
+    ここに規約が表示されます。<br>
+    <h1>会員登録</h1><br>
+    以下の情報を入力し確認ボタンをおしてください。
+    <fieldset>
+        <legend>お客様情報</legend>
+        性　　　　　　　　:<input type="text" name="last_name"><br>
+        名　　　　　　　　:<input type="text" name="first_name"><br>
+        住所　　　　　　　:<input type="text" name="address"><br>
+        メールアドレス　　:<input type="email" name="email"><br>
+        電話番号　　　　　:<input type="tel" name="tel"><br>
+        生年月日　　　　　:<input type="date" name="birthday" value="1990-01-01"><br>
+        年齢　　　　　　　:<input type="number" name="age" min="0" max="150"><br>
+        性別　　　　　　　:<label><input type="radio" name="gender" value="man" required>男</label>
+             <label><input type="radio" name="gender" value="woman" readonly>女</label>
+             <label><input type="radio" name="gender" value="other" readonly>その他<br></label>
+    </fieldset>
+    <fieldset>
+        <legend>パスワード</legend>
+        英数字8文字以上で入力してください。<br>
+        <input type="password" name="password"><br>
+        確認のためもう一度入力してください。<br>
+        <input type="password" name="password_confirm">
+    </fieldset>
+    <fieldset>
+        <legend>希望メールマガジン</legend>
+        <label><input type="checkbox" name="magajin" value="it"> IT</label>
+        <label><input type="checkbox" name="magajin" value="iryou"> 医療</label>
+        <label><input type="checkbox" name="magajin" value="sekkyaku"> 接客</label>
+        <label><input type="checkbox" name="magajin" value="eigyou"> 営業</label><br>
+    </fieldset>
+    <fieldset>
+        <legend> 利用規約</legend>
+        <a href="http://127.0.0.1:5500/task/form/terms.html">利用規約を確認する</a><br>
+        <input type="checkbox" name="ok" required>規約に同意する<br>
+    </fieldset>
+    <button type="reset">クリアボタン</button>
+    <button type="submit">確認ボタン</button>
+</form>
+</body>
+</html>
