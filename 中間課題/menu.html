@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="stylesheet" href="menu-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css"></link>
+    <title>HTML/CSS 中間課題</title>
+    <link rel ="icon" href="img/favicon2.ico.ico">
+</head>
+<body>
+    <header>
+        <!--ここはヘッダー部です。-->
+        <div class="background">
+            <div class="logo">
+                <img src="img/logo.svg" alt="ロゴ">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="menu.html">ITの歴史</a></li>
+                <li><a href="about.html">気になる企業</a></li>
+                <li><a href="location.html">気になったニュース</a></li>
+                <li><a href="self-introduction.html">自己紹介ページ</a></li>
+            </ul>
+            <ol class="breadcrumbs">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="#">歴史</a></li>
+             </ol>
+        </nav>
+    </header>
+    <div id="page_top"><a href="#"></a></div>
+    <main>
+        <div class="menu">
+            <h2>キーボードの歴史</h2>
+            <h3>年表</h3>
+            <div class="menu-list">
+                <section>
+                    <h3>初期</h3>
+                    <ul>
+                        <li><a href="#1">1867年 ピアノのような楽器型</a></li>
+                        
+                    </ul>
+                </section>
+                <section>
+                    <h3>中期前～中期後</h3>
+                    <ul>
+                        <li><a href="#2">1871年 (前)ボタン式タイプライター</a></li>
+                        <li><a href="#3">1874年 (後)QWERTY配列の原型</a></li>
+                        
+                    </ul>
+                </section>
+                <section>
+                    <h3>現在</h3>
+                    <ul>
+                        <li><a href="#4">1885年以降 QWERTY配列</a></li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="menu-item">
+                <h3>初期</h3>
+                <ul>
+                    <li id="1"><span>ピアノのような楽器型</span>
+                        <p>1867年に作られた初期型のタイプライターは、楽器のキーボードタイプで配列はABC順でした。<br>上段：- 3 5 7 9 N O P Q R S T U V W X Y Z<br>
+                            下段：2 4 6 8 . A B C D E F G H I J K L M</p>
+                        <img src="img/menu/topimg_original.jpg" alt="ピアノのような楽器型">
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>中期</h3>
+                <ul>
+                    <li id="2"><span >ボタン式タイプライター(改善前)</span>
+                        <p>ボタンの数は38個で、数字と大文字のアルファベット、いくつかの記号が打てる構造です。<br>
+                        </p>
+                        <img src="img/menu/tyuuki.png" alt="ボタン式１">
+                        <h4>＜課題＞</h4>
+                            <li>モールス符号が打ちづらい</li>
+                            <li>当時の年号が打ちづらい</li>
+                    </li>
+                    <li id="2.5"><span >ボタン式タイプライター(改善後)</span>
+                        <p>「当時の年号が打ちづらい」「モールス符号が打ちづらい」といった、2つの課題を乗り越え変化したのが、<br>このキーボード配列です</p>
+                        <p>IとOが近くなり、年号が打ちやすくなりました。<br>さらに、ESZが斜めに配列されたことにより、モールス信号も打ちやすくなりました。</p>
+                        
+                        <img src="img/menu/tyuuki2.png" alt="ボタン式2"><br>
+                    <li id="3"><span >QWERTY配列の原型</span>
+                            <p>現在のキーボードの原型となる配列です。</p>
+                            <p>タイプライターが TYPEWRITER と打ちやすくする為にこれらのキーが１列に配列されています。</p>
+                            <p>しかし、記号や１と０のキーがなくまだつかいずらさが目立ちます</p>
+                            <img src="img/menu/pc-keyboard-array-05.png" alt="QWERTY配列">
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-item">
+                <h3>現在</h3>
+                <ul>
+                    <li id="4"><span >QWERTY配列</span>
+                        <p>現在のキーボードです</p>
+                        <p>多くの記号やファンクションキーが追加され実用的になりました。</p>
+                        <p>また、下の写真のようにテンキーがついているキーボードも作成され文字だけでなく数字も打ちやすいように<br>改良されました。</p>
+                        <img src="img/menu/k295-offwhite-gallery-01.webp" alt="QWERTY配列">
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        
+        <p>&copy; 2023 Kaji next evo. All rights reserved.</p>
+    </footer>
+</body>
+</html>

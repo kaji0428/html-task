@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+main{
+    padding: 1rem;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+    min-width: 1200px;
+}
+
+.menu-list section{
+    background-color: rgb(202, 224, 224);
+    padding: 0.5rem;
+    width: 30%;
+
+}
+
+/* お品書きのli要素のリストマーカーをアイコンにする */
+.menu-list li{
+    list-style: none;
+    background-image: url(img/menu/owan.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    padding-left: 30px;
+}
+
+img{
+    width: 50%;
+}
+
+/* メニューにマーカーを引く */
+.menu-item li span{
+    background: linear-gradient(transparent 70%, #9de2e2 30%);
+}
+
+.menu-item li{
+    margin-bottom: 2rem;
+    list-style: none;
+}
+.menu-list a{
+    color: #000000;
+}
+
+.menu-list a:hover{
+    text-decoration: none;
+}
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #000000;
+    opacity: 0.6;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    /* Font Awesome 5 から^のアイコン(\f102)を取得 */
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+
+
+

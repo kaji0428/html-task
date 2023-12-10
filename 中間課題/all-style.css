@@ -1,0 +1,69 @@
+header, footer{
+    background-color: rgb(204, 204, 204);
+    padding: 0.5rem;
+}
+
+header{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;   
+    padding:0%;
+}
+
+header ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: #ffffff;    text-decoration: none;
+    /*フォントを太文字*/
+    font-weight: bold;
+}
+
+body{
+    min-width: 700px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+header ul li + li{
+    border-left: 2px solid #232c28;
+}
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+
+.breadcrumbs li a:link{
+    color: #060a08;
+}
+
+.breadcrumbs li a:visited{
+    color: #000000;
+}
+.background{
+    background-image:url(img/header.jpg) ;
+    background-position: center;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+header img{
+    width: 30rem;
+    display: inline-block;
+}

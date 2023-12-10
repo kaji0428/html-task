@@ -1,0 +1,47 @@
+main{
+  
+    text-align: left;
+}
+.frame{
+    margin-bottom: 2rem;
+}
+.floot-left{
+    width: 50%;
+    margin-top: 0rem;
+    margin-bottom:0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1{
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+h2{
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-top: 3px solid rgb(144, 152, 178);
+    border-bottom:3px solid rgb(144, 152, 178) ;
+    text-align: center;
+}
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+.floot-left{
+    width: 20%;
+    margin: 0 1rem;
+    float: left;
+}
+.frame{
+    line-height: 1;
+}
+.frame p{
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+.sigot {
+    list-style: "◆";
+}
+p{
+    margin-bottom: 1rem;
+}

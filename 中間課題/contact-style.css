@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+form{
+    width: 50%;
+    margin:30px auto;
+    max-width: 500px;
+}
+
+.form-item{
+    border-top: 1px solid #ddd;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.form-item-label-required{
+    background-color: #5bc8ac;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    padding: 0.2rem;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+.form-item-label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-item-input{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #eaedf2;
+    height:40px;
+    width: 100%;
+}
+
+.form-item-label-sub{
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-item-input-textarea{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #eaedf2;
+    width: 100%;
+    height: 200px;
+}
+
+.reservation{
+    display: flex;
+    width: 100%;
+}

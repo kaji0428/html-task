@@ -1,0 +1,21 @@
+.text-brown{
+    color: brown;
+}
+#bg-yellow{
+    background-color: yellow;
+}
+#bg-blue{
+    background-color: blue;
+}
+#bg-orange{
+    background-color: orange;
+}
+
+#color-orchid{
+    
+    color: orchid;
+   
+}
+span{
+    border: 2px dotted teal;
+}

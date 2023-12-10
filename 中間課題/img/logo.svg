@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540.38 184.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efdfd7;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        font-size: 57.68px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+        font-family: HannariMincho-Regular-90ms-RKSJ-H, HannariMincho;
+      }
+
+      .cls-2 {
+        fill: #429f90;
+      }
+
+      .cls-3 {
+        fill: #73b6ac;
+      }
+
+      .cls-5 {
+        font-size: 108.87px;
+      }
+    </style>
+  </defs>
+  <g >
+    <g>
+        
+      <g>
+        <text class="cls-5" transform="translate(193.88 95.8)"><tspan x="-85" y="0">野月平</tspan></text>
+        <text class="cls-4" transform="translate(173.98 168.74)"><tspan x="-70" y="0">Notsukitaira</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+main{
+    background-color:rgb(204, 204, 204);
+    padding: 0.5rem;
+    width:70%;
+}
+.container{
+    display: flex;
+}
+
+aside{
+    background-color: rgb(204, 204, 204);
+    padding: 0.5rem;
+    width:30%;
+}
+
+main article{
+    background-color: #000000;
+    margin-top: 0.5rem;
+    padding: 0.5rem
+}
+
+main section{
+    padding: 0.5rem;
+}
+
+main article th{
+    padding: 0.5rem;
+    text-align: center;
+}
+li{
+    font-size: 40px;
+    
+}
+.name{
+    background-color: white;
+    text-align: center;
+}
+li{
+    height: 30rem;
+    
+}
+a{
+    height: 100%;
+    position: relative;
+  top: 35%;
+}

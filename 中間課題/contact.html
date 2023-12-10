@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和の庭 (Wa no Niwa) -Contact</title>
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="all-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+</head>
+
+<body>
+    <header>
+        <!-- ここはヘッダー部です。 -->
+        <div class="background">
+            <div class="logo">
+                <img src="img/logo.svg" alt="ロゴ">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ol class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <h2>お問い合わせ</h2>
+            <div class="form-item">
+                <p class="form-item-label"><span class="form-item-label-required">必須</span>氏名</p>
+                <input type="text" name="name" placeholder="例）盛岡太郎" class="form-item-input" required>
+            </div>
+            <div class="form-item">
+                <p class="form-item-label"><span class="form-item-label-required">必須</span>メールアドレス</p>
+                <input type="email" name="email" class="form-item-input" required>
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">電話番号</p>
+                <input type="tel" name="tel" placeholder="090-1234-5678" class="form-item-input">
+            </div>
+            <div class="form-item">
+                <p class="form-item-label"><span class="form-item-label-required">必須</span>予約情報</p>
+                <div class="reservation">
+                    <div style="margin-right: 20px;">
+                        <p class="form-item-label-sub">人数</p>
+                        <input type="num" name="num_people" class="form-item-input"
+                            required>
+                    </div>
+                    <div>
+                        <p class="form-item-label-sub">予約日時</p>
+                        <input type="datetime-local" name="datetime" class="form-item-input" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-item">
+                <p class="form-item-label">質問/メッセージ</p>
+                <textarea name="msg" cols="50" rows="5" class="form-item-input-textarea"></textarea>
+            </div>
+            <div class="form-item">
+                <label><input type="checkbox" name="consent" required><a href="privacy-policy.html"
+                        target="_blank">プライバシーポリシー</a>に同意する</label>
+            </div>
+            <button type="submit">送信</button>
+        </form>
+    </main>
+    <footer>
+        ここはフッター部です。
+        企業情報やコピーライトなどが入ります。
+        <p>&copy; 2023 Kaji next evo. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
