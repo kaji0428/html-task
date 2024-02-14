@@ -1,0 +1,236 @@
+body{
+    background-image: url(../img/bg-story-visual\ \(1\).png);
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+  
+}
+  .storybg{
+    height: 8350px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 50px auto;
+    color: white;
+    padding: 30px 50px 50px 30px;
+    margin-top: 70px;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+ 
+.slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+}
+
+.cp_cssslider {
+	width: 655px;
+	height: 369px;
+	overflow: hidden;
+	margin: 2em auto;
+	/* border: 10px solid #ffffff; */
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.cp_slide_item {
+	width: 655px;
+	height: 369px;
+	float: left;
+	position: relative;
+}
+.cp_slidewrapper {
+	width: 500%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 40s infinite ease;/* スピード */
+}
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-655px);
+	transform: translateX(-655px);
+	}
+	40% {
+	-webkit-transform: translateX(-1310px);
+	transform: translateX(-1310px);
+	}
+	60% {
+	-webkit-transform: translateX(-1965px);
+	transform: translateX(-1965px);
+	}
+	80% {
+	-webkit-transform: translateX(-2620px);
+	transform: translateX(-2620px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	20% {
+	-webkit-transform: translateX(-655px);
+	transform: translateX(-655px);
+	}
+	40% {
+	-webkit-transform: translateX(-1310px);
+	transform: translateX(-1310px);
+	}
+	60% {
+	-webkit-transform: translateX(-1965px);
+	transform: translateX(-1965px);
+	}
+	80% {
+	-webkit-transform: translateX(-2620px);
+	transform: translateX(-2620px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+.x1{
+  width: 15%;
+  position: fixed;
+  top: 200px;
+  right: auto;
+  bottom: auto;
+  left: 50px;
+}
+.x2{
+  width: 85%;
+  margin-left: 120px;
+}
+.storygroup{
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  top:0;
+  z-index: 100;
+}
+.cstoryul{
+  text-decoration: none;
+}
+.storyul a:link{
+  color:white;
+  text-decoration: none;
+}
+.storyul a:visited{
+  color: white;
+  text-decoration: none;
+}
+.storyul li{
+  list-style: none;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.storybg h1{
+	text-align: left;
+	font-weight: bold;
+}
+
+.s1{
+	margin-top: 0px !important;
+}
+
+.storybg p{
+	padding: 0.5em 1em;
+    margin: 2em 0 100px 0;
+    border: double 5px  white;
+	background-color: rgba(0, 0, 0, 0.475);
+}
+a.btn_1 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: #00ff00;
+	background: #000000bc;
+	transition: 0.3s ease-in-out;
+}
+a.btn_1::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #00ff00;
+  transition: 0.2s;
+}
+a.btn_1:hover {
+	background: #00ff00c4;
+	color: #000000;
+}
+a.btn_1:hover::before {
+  top: 0;
+  left: 0;
+}
+
+a.btn_2 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	position: relative;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	background: #00ff00bd;
+	transition: 0.3s ease-in-out;
+}
+a.btn_2::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #000000;
+  transition: 0.2s;
+}
+a.btn_2:hover {
+	background: #00ff00bf;
+	color: #000000;
+}
+a.btn_2:hover::before {
+  top: 0;
+  left: 0;
+}
+.btn{
+	display: flex;
+	text-align: center;
+	width: 100px;
+	margin-left: 500px;
+}
+.btn a{
+	margin-left: 10px;
+	text-align: center;
+}
+.storyul a:hover{
+	color: #00ff00bf;
+}

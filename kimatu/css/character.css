@@ -1,0 +1,49 @@
+body{
+    background-image: url('../img/bg-character-visual.png'); /* 画像のパスを指定 */
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+  }
+  .characterbg{
+    height: 700px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 50px auto;
+    color: white;
+    padding: 30px 50px 50px 30px;
+    margin-top: 70px;
+}
+.charactergroup{
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  top:0;
+  z-index: 100;
+}
+.g1{
+  margin-top: 100px;
+  width: 25%;
+}
+.g2{
+  width: 75%;
+  margin-left: 0px;
+}
+.characterul{
+  text-decoration: none;
+}
+.characterul a:link{
+  color:white;
+  text-decoration: none;
+}
+.characterul a:visited{
+  color: white;
+  text-decoration: none;
+}
+.characterul li{
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 20px;
+}
+.characterul a:hover{
+	color: #00ff00bf;
+}
